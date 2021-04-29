@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Rahul Arya</title>
+</head>
+  <body>
+
+    <header>
+        <a href="#" class="logo">Rahul <span>Arya</span></a>
+        <ul class="nav-links">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Skills</a></li>
+            <li><a href="">Contact Us</a></li>
+        </ul>
+    </header>
+
+    <section class="banner">
+        <div class="overlay"></div>
+        <div class="content">
+            <h2>Rahul Arya</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, laudantium. Minima dolor ea tenetur officiis expedita rerum quis sunt deleniti.</p>
+            <a href="#">Download CV</a>
+        </div>
+    </section>
+
+    <section class="about">
+        <div class="row">
+            <div class="col50">
+                <h2>About Me</h2>
+                <p>Lorem ipsum, dolor sit, amet consectetur adipisicing elit. Unde asperiores mollitia nulla suscipit minus eos, quisquam consequuntur qui quia earum, numquam veritatis sapiente pariatur dolores tenetur facere illo voluptatibus repellendus fugit, praesentium. Obcaecati praesentium, quam dolorem dignissimos aperiam molestiae ea, consequuntur magni! Est, vero delectus debitis? Ipsam iure alias, inventore magni porro fuga officia expedita harum accusantium tempore culpa a repudiandae? Aliquid dolores saepe reiciendis, impedit tempora, inventore fuga nostrum ipsa beatae quod earum magnam odit odio ex. Suscipit soluta esse sed iusto, eum dignissimos sint, aliquam eveniet et, accusamus optio incidunt expedita dolore exercitationem consequuntur itaque! Ratione, omnis, velit. Obcaecati, provident fugiat facere laudantium! Id deleniti, quas odit eaque soluta, libero dolorem recusandae sint totam similique, sunt quidem, doloremque.</p>
+            </div>
+            <div class="col50">
+                <div class="imgBox">
+                    <img src="mypic.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        window.addEventListener('scroll', function(){
+            const header = document.querySelector('header')
+            header.classList.toggle('sticky', window.scrollY > 0)
+        })
+    </script>
+  </body>
+</html>
